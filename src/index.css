@@ -106,6 +106,29 @@ header nav ul li a:hover {
   opacity: 1;
 }
 
+  /* SKILLS STYLING */
+.skillz {
+  background-image: url("./assets/images/drums.jpg");
+  background-position: 80%;
+  background-attachment: fixed;
+  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.skillz-title {
+  color: white;
+  width: fit-content;
+  margin-left: 525px;
+}
+
+.skillz img {
+  margin-left: 150px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
   /* FILLER STYLING */
 .fillerone {
   border-radius: 10px;

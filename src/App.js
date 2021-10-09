@@ -4,6 +4,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Filler from './components/Filler';
 import FillerTwo from './components/FillerTwo';
+import Skills from './components/Skills';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <main>
       <Filler></Filler>
       <FillerTwo></FillerTwo>
+      <Skills></Skills>
       </main>
       </>
       ) : (

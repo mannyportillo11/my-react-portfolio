@@ -15,13 +15,13 @@ function Nav(props) {
                         <a href = "#me" onClick = {() => setContactSelected(true)}>Me, Myself and I</a>
                     </li>
                     <li>
-                        <a href = "#contact-us" onClick = {() => setContactSelected(false)}>What I Can Do</a>
+                        <a href = "#skills" onClick = {() => setContactSelected(false)}>What I Can Do</a>
                     </li>
                     <li>
-                        <a className = "monay" href = "#contributions" onClick = {() => setContactSelected(false)}>My Projects</a>
+                        <a href = "#proj" onClick = {() => setContactSelected(false)}>My Projects</a>
                     </li>
                     <li>
-                        <a href = "#search" onClick = {() => setContactSelected(false)}>Contact Me</a>
+                        <a href = "#contact" onClick = {() => setContactSelected(false)}>Contact Me</a>
                     </li>
             </ul>
         </nav>
