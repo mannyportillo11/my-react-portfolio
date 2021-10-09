@@ -193,6 +193,71 @@ header nav ul li a:hover {
   margin-right: 50px;
 }
 
+/* PROJECTS FORMATTING */
+.projects {
+  background-color: white;
+  text-align: center;
+  border-color: chartreuse;
+  border-radius: 10px;
+}
+
+/* CONTACT BOX CONTAINER */
+.contactform-container {
+  background-color: black;
+  color: #000000;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+.contitle{
+    font-size: 36px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.conname{
+margin-left: 600px;
+margin-bottom: 5px;
+color: white;
+}
+
+.conaddress {
+color: white;
+margin-left: 535px;
+margin-bottom: 5px;
+}
+
+.conmessage {
+color: white;
+margin-left: 580px;
+}
+
+.conerror {
+  color: red;
+  font-size: large;
+  text-align: center;
+}
+
+.message-title {
+  padding-bottom: 50px;
+}
+
+button:hover {
+  background-color: rgb(50, 10, 53);
+  color: yellowgreen;
+  border-radius: 10px;
+  margin-left: 728px ;
+}
+
+button {
+  background-color: yellowgreen;
+  color: rgb(50, 10, 53);
+  border-radius: 10px;
+  margin-left: 728px;
+}
+
+
 /* FOOTER STYLING */
 .footer {
   background-color: rgba(255, 255, 255, 0.966);
