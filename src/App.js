@@ -23,6 +23,8 @@ function App() {
       <Filler></Filler>
       <FillerTwo></FillerTwo>
       <Skills></Skills>
+      <FillerTwo></FillerTwo>
+      <Filler></Filler>
       </main>
       </>
       ) : (
