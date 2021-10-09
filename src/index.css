@@ -17,6 +17,11 @@
   margin-left: 420px;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 /*HEADER FUNCTIONS FORMATTING*/
 .header-title{
@@ -195,10 +200,21 @@ header nav ul li a:hover {
 
 /* PROJECTS FORMATTING */
 .projects {
-  background-color: white;
+  color: white;
   text-align: center;
-  border-color: chartreuse;
+}
+
+.projectex {
+  border-left: solid;
+  border-bottom: solid;
   border-radius: 10px;
+  border-color: white;
+  width: 300px;
+}
+
+.projimage {
+  width: 250px;
+  height: 115px;
 }
 
 /* CONTACT BOX CONTAINER */
@@ -207,6 +223,10 @@ header nav ul li a:hover {
   color: #000000;
   margin-bottom: 25px;
   padding-bottom: 25px;
+  border-bottom: solid;
+  border-left: solid;
+  border-color: white;
+  border-radius: 15px;
 }
 
 .contitle{
