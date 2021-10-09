@@ -5,7 +5,20 @@
   background-color: black;
 }
 
-/*header functions and format*/
+/* COMMON FORMATTING */
+.centered {
+  text-align: center;
+}
+.circle-edge {
+  border-radius: 55%;
+}
+
+.mar-left{
+  margin-left: 420px;
+}
+
+
+/*HEADER FUNCTIONS FORMATTING*/
 .header-title{
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0);
@@ -29,7 +42,7 @@ header {
   border-radius: 10px;
 }
 
-/*navigation bar formatting*/
+/*NAV BAR FORMATTING*/
 header nav {
   background-color: rgba(0, 0, 0, 0);
   margin: 10px 10px;
@@ -65,7 +78,7 @@ header nav ul li a:hover {
   margin: 0 30px;
 }
 
-/*hero formatting*/
+/*HERO FORMATTING*/
 .hero {
   background-image: url("./assets/images/drums.jpg");
   background-attachment: fixed; /*rolling affect coupled with header*/
@@ -77,32 +90,53 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
   
-  /* about formatting */
-  /* make parent container and format text style*/
-.bio-content {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  /* ABOUT FORMATTING */
+.bio {
   color: white;
-  text-align: center;
-  font-size: 24px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  background-image: url("./assets/images/drums.jpg");
+  background-position: 80%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.bio-content p {
-  padding: 5 px;
+.bio-title {
+  background-color: rgba(255, 255, 255, 0.699);
+  color:black;
+  margin:50px 600px;
+  border-radius: 10px;
+}
+
+.bio-para {
+  background-color: rgba(255, 255, 255, 0.699);
+  color:black;
+  margin: 0px 200px 15px 500px;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.bio-paratwo {
+  background-color: rgba(255, 255, 255, 0.699);
+  color:black;
+  margin:0px 500px 0px 200px;
+  border-radius: 10px;
+  font-size: large;
 }
 
 /*format picture into circle*/
-.bio-content img {
+.bio img {
   border-radius: 50%;
-  margin-top: 50px;
+  margin-top: 10px;
   opacity: 0.25;
   width: 50%;
   margin-bottom: 50px;
 }
 
 /*create fade effect*/
-.bio-content img:hover {
+.bio img:hover {
   opacity: 1;
 }
 
@@ -115,17 +149,20 @@ header nav ul li a:hover {
   border-style: solid;
   border-color: white;
   border-radius: 10px;
+  margin: 0px 25px;
 }
 
 .skillz-title {
   color: white;
   width: fit-content;
   margin-left: 525px;
+  border-radius: 10px;
+  padding: 0px 15px;
 }
 
 .skillz img {
-  margin-left: 150px;
-  margin-top: 25px;
+  margin-left: 180px;
+  margin-top: 5px;
   border-radius: 10px;
 }
 
@@ -154,4 +191,12 @@ header nav ul li a:hover {
   margin-bottom: 10px;
   margin-left: 400px;
   margin-right: 50px;
+}
+
+/* FOOTER STYLING */
+.footer {
+  background-color: rgba(255, 255, 255, 0.966);
+  border-radius: 10px;
+  text-align: center;
+  margin: 0px 10px 15px 10px;
 }

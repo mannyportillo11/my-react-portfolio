@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Filler from './components/Filler';
 import FillerTwo from './components/FillerTwo';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -25,12 +26,15 @@ function App() {
       <Skills></Skills>
       <FillerTwo></FillerTwo>
       <Filler></Filler>
+      <FillerTwo></FillerTwo>
       </main>
+      <Footer></Footer>
       </>
       ) : (
         <main>
         <Hero></Hero>
         <About></About>
+        <Footer></Footer>
         </main>
       )}
     </div>
