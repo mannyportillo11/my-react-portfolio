@@ -28,12 +28,12 @@ function Projects() {
                 </div>
 
                 <div className= "projectex">
-                    <a href="https://mannyportillo11.github.io/horiseon/" target="_blank"> 
-                        <h2>Horiseon</h2>
-                        <img className = "projimage" src = "https://mannyportillo11.github.io/myPortfolio/assets/images/horiseon.JPG" alt = "horiseon screenshot" />
+                    <a href="https://pure-chamber-70764.herokuapp.com/" target="_blank"> 
+                        <h2>LP Pulse</h2>
+                        <img className = "projimage" src = "https://mannyportillo11.github.io/myPortfolio/assets/images/LPPulse.JPG" alt = "horiseon screenshot"/>
                     </a>
-                    <a href="https://mannyportillo11.github.io/horiseon/" target="_blank"> 
-                        <h3>Horiseon Github</h3>
+                    <a href="https://github.com/mannyportillo11/Muzik" target="_blank"> 
+                        <h3>LP Pulse Github</h3>
                     </a>
                 </div>
             </div>
